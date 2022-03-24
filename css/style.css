@@ -1,0 +1,43 @@
+/*propiedad creada por el desarrollador*/
+/*para el color se puede escribir #000 y se puede seleccionar un color*/
+.red-text{
+    color: red;
+    font-family: impact;
+}
+
+.blue-text{
+    color: blue;
+    font-family: verdana;
+    /*           ejeX ejeY difuminación     color (se escribe el color)   */
+    text-shadow: -3px 3px      3px         black ;
+}
+
+/*
+google fonts
+elegir fuente
+seleccionar
+en propiedades copiar link y propiedades 
+*/
+
+body{
+    background-color: greenyellow;
+    /*margin-left: 50px;
+    margin-left: 50px;*/
+    /*     top rigt down left*/
+    margin: 0 50px;
+}
+
+.card{
+    /*      grosor tipo color*/
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px brown;
+    margin-top: 80px;
+    padding: 12px;
+    
+}
+
+.card h3{
+    text-align:center ;
+}
